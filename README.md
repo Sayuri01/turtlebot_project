@@ -11,6 +11,8 @@ Here are the commands to run turtlebot codes for the mapping and objects detecti
 
 Maybe obvious but you have to have Gazebo and Turtlebot 2 packages installed on your PC.
 
+You have to download the find-object package and in order to use it in this project, you have to replace some folders and files from the original package by those are provided in the find-object(modified) folder.
+
 In the .bashrc file, add these lines :
 - export GAZEBO_RESOURCE_PATH=/path to your catkin workspace/src/turtlebot_project/worlds/
 (It is added to be able to use your own worlds and load textures from the turtlebot_project package)
